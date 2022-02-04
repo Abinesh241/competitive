@@ -11,7 +11,7 @@ public class test {
         int k= in.nextInt();
         int count=0;
         for (int i=1;i<=k;i++){
-            if (i%k==0){
+            if (k%i==0){
                 count+=1;
             }else{
                 continue;
@@ -22,6 +22,7 @@ public class test {
         }else{
             System.out.println("the number you entered is not prime");
         }
+
     }
 }
    
